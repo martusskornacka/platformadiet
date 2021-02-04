@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="news.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+   
+    <title>Costa portfolio</title>
+  </head>
+  <body>
+    <div class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+        <div class="nav-title">
+         Costa
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      
+      <div class="nav-links">
+        <a href="index.html">Strona główna</a>
+        <a href="product.html" >O produkcie</a>
+        <a href="api.html" >Cennik</a>
+        <!-- <a href="" target="_blank">lorem</a>
+        <a href="" target="_blank">lorem</a> -->
+        <button type="button" class="sign" id="signin">Zaloguj się</button>
+      </div>
+    </div>
+<div class="row" >
+  <div class="col-2">
+<h2 style="text-align: center;">Wszystko zaczyna się od</h2>
+<p style="text-align: center;">zmiany stylu zycia</p>
+<button type="button" class="button-head"><a href="panel/signup.php">Zarejestruj się</a></button>
+  </div>
+  <div class="col-10 headers">
+      
+  </div>
+</div>
+<!-- sign in modal -->
+<div id="modal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+      <h1  >Zaloguj się</h1>
+    
+    <div class="row" style="justify-content: center;">
+      <div class="social-container">
+            <a
+              href="#"
+              target="_blank"
+              class="social"
+              ><i style="color:blue" class="fab fa-facebook"></i
+            ></a>
+          
+            <a
+              href="#"
+              target="_blank"
+              class="social"
+              ><i style="color:red" class="fab fa-google"></i
+            ></a>
+          </div>
+    </div>
+   
+    <form class="form-signin" method="post" action="panel/sign.php" style="justify-content: center;">
+    
+<img
+        class="mb-4"
+        src="/docs/4.3/assets/brand/bootstrap-solid.svg"
+        alt=""
+        width="72"
+        height="72"
+      />
+      
+      <label for="inputName" class="sr-only">Login</label>
+      <input
+        type="text"
+        id="inputName"
+        class="form-control"
+        name="username"
+        placeholder="Wpisz swój login"
+        required
+        autofocus
+      />
+      <label for="inputPassword" class="sr-only">Hasło</label>
+      <input
+        type="password"
+        id="inputPassword"
+        class="form-control"
+        name="password"
+        placeholder="Wpisz hasło"
+        required
+      />
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me" /> Zapamiętaj mnie
+        </label>
+      </div>
+      <button class="button-sign" ame="login_user" style="margin-top:2%; text-align: center;" type="submit" value="submit">
+        Zaloguj się
+      </button>
+    </form>
+    </div>
+    <div class="row">
+      <span class="vl-innertext">Lub kontynuuj z</span>
+    </div>
+    
+
+
+</div>
+<!--  sign in modal end-->
+  <div class="container">
+    <div class="row sectiona ">
+      <div class="col-4">
+ <div class="appleim">
+   <figure style="text-align: center">
+     <img src="one.png" alt="jablko" width="50%" height="50%" ;/>
+   </figure>
+   <h2>Nawyki zywieniowe</h2>
+   <p>Dzięki personalizowanym poradom, jadłospisom dostępnych w platformie wypracujesz zdrowe nawyki zywieniowe. </p>
+   </div>
+      </div>
+      <div class="col-4">
+       <figure style="text-align: center">
+         <img src="alarm.png" alt="jablko" width="50%" height="50%"/>
+       </figure>
+       <h2>Budzik na posiłek</h2>
+   <p>Dzięki regularnemu spozywaniu posiłków, organizm nie będzie musiał magazynować części energii w postaci tkanki tłuszczoej. </p>
+      </div>
+      <div class="col-4">
+       <figure style="text-align: center">
+         <img src="running.png" alt="jablko" width="50%" height="50%"/>
+       </figure>
+       <h2>Aktywność fizyczna</h2>
+       <p>W platformie znajdziesz spresonalizowane ćwiczenia, dzięki czemu aktywność fizyczna nie będzie ju nigdy więcej przykrą koniecznością. </p>
+     </div> 
+    </div>
+  </div>
+   
+ 
+      <div class="col-12">
+        <div class="news-header">
+          <h1 style="color:lightgrey; font-size: 1.2em; text-align: center;">Aktualności</h1>
+        </div>
+     
+     
+      <div class="example-1 card">
+        <div class="wrapper">
+          <div class="date">
+            <span class="day">02</span>
+            <span class="month">Sty</span>
+            <span class="year">2021</span>
+          </div>
+          <div class="data">
+            <div class="content">
+              <span class="author">Costa</span>
+              <h1 class="title"><a href="#">Regularne ćwiczenia wpływają na poprawę samopoczucia</a></h1>
+              <p class="text">W wielu badaniach udowodniono, ze cwiczenie  minimum 30minut 3 - 4 razy w tygodniu wpływa na poprawę samopoczucia i zmniejsza ryzyko wystąpienia depesji.</p>
+              <label for="show-menu" class="menu-button"><span></span></label>
+            </div>
+            <input type="checkbox" id="show-menu" />
+            <ul class="menu-content">
+              <li>
+                <a href="#" class="fa fa-bookmark-o newsa"></a>
+              </li>
+              <li><a href="#" class="fa fa-heart-o newsa"><span>0</span></a></li>
+              <li><a href="#" class="fa fa-comment-o newsa"><span>0</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="example-2 card">
+        <div class="wrapper">
+          <div class="header">
+            <div class="date">
+              <span class="day">02</span>
+              <span class="month">Styczeń</span>
+              <span class="year">2021</span>
+            </div>
+            <ul class="menu-content">
+              <li>
+                <a href="#" class="fa fa-bookmark-o"></a>
+              </li>
+              <li><a href="#" class="fa fa-heart-o newsa"><span>0</span></a></li>
+              <li><a href="#" class="fa fa-comment-o newsa"><span>0</span></a></li>
+            </ul>
+          </div>
+          <div class="data">
+            <div class="content">
+              <span class="author">Costa</span>
+              <h1 class="title"><a href="#">Noworoczne postanowienia</a></h1>
+              <p class="text">Nowy Rok to dobra okazja okazja na postanowienie zmiany w swoim zyciu. Czy jednak na pewno musimy czekać na jakąś okazję?</p>
+              <a href="#" class="button newsa">czytaj więcej</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div style="clear:both; padding-top: 10%;">
+    <div class="hot_news" >
+      <div class="col-6" >
+        <img src="background1-2.jpg" style="max-width:100%; z-index: 10; opacity:0.7" />
+          </div>
+          <div class="col-6" style="padding-left:2%">
+            <h4>O produkcie</h4>
+            <p>Bardzo cenimy swój czas, dlatego przygotowałam dla Ciebie panel w którym znajdziesz spersonalizowane:
+              <ul class="tips">
+                <li><i class="fas fa-angle-right"style="color:#9667E0;"></i> tipy zywieniowe</li>
+                <li><i class="fas fa-angle-right"style="color:#9667E0;"></i> jadłospisy</li>
+                <li><i class="fas fa-angle-right"style="color:#9667E0;"></i> plany treningowe</li>
+                <li><i class="fas fa-angle-right"style="color:#9667E0;"></i> materiały wideo z ćwiczeniami</li>
+              </ul>  </p>
+            
+          </div>
+    </div>
+
+  </div>
+  <!--  -->
+  <div style="clear:both; padding-top: 10%;">
+    <div class="hot_news" >
+      
+          <div class="col-6" style="padding-left:2%">
+            <h4>O produkcie</h4>
+            <p>Bardzo cenimy swój czas, dlatego przygotowałam dla Ciebie panel w którym znajdziesz spersonalizowane:
+              <ul class="tips">
+                <li><i class="fas fa-angle-right"style="color:#9667E0;"></i> tipy zywieniowe</li>
+                <li><i class="fas fa-angle-right"style="color:#9667E0;"></i> jadłospisy</li>
+                <li><i class="fas fa-angle-right"style="color:#9667E0;"></i> plany treningowe</li>
+                <li><i class="fas fa-angle-right"style="color:#9667E0;"></i> materiały wideo z ćwiczeniami</li>
+              </ul>  </p>
+            
+          </div>
+          <div class="col-6" >
+            <img src="background1-2.jpg" style="max-width:100%; z-index: 10; opacity:0.7" />
+              </div>
+    </div>
+
+  </div>
+<!--  -->
+  <!-- <div class="col-12">
+    <div class="containers" id="containers">
+      <div class="carousel" id="carousel">
+        <img class="img_car"src="tiramisu.jpg" alt="" class="img">
+        <img class="img_car" src="photo.jpg" alt="" class="img">
+        <img class="img_car" src="https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&cs=tinysrgb&h=650&w=940 940w, https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260 1260w, https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 1880w, https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 2520w" alt="" class="img">
+        <img class="img_car"src="https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&h=650&w=940 940w, https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260 1260w, https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 1880w, https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 2520w" alt="" class="img">
+      </div>
+    </div>
+  </div>
+    <div class="col-10 calculator-body" style="clear: both;">
+      <div class="calculator" >
+        <div id="viewer"class="viewer">0</div>
+          <div class="rowone col-12"></div>
+          <button id="clear" class="clear">C</button>
+          <button class="num" data-num="7">7</button>
+          <button class="num" data-num="8">8</button>
+          <button class="num" data-num="9">9</button>
+          <button data-ops="plus" class="ops">+</button>
+          <div class="rowtwo col-12">
+            <button class="num" data-num="4">4</button>
+            <button class="num" data-num="5">5</button>
+            <button class="num" data-num="6">6</button>
+            <button data-ops="minus" class="ops">-</button>
+          </div>
+          <div class="rowthree col-12">
+            <button class="num" data-num="1">1</button>
+            <button class="num" data-num="2">2</button>
+            <button class="num" data-num="3">3</button>
+            <button data-ops="times" class="ops">*</button>
+          </div>
+          <div class="rowfour col-12">
+            <button class="num" data-num="0">0</button>
+  <button class="num" data-num=".">.</button>
+  <button id="equals" class="equals" data-result="">=</button>
+  <button data-ops="divided by" class="ops">/</button>
+</div>
+            <button id="reset" type="reset">CE</button>
+        
+          </div>
+        
+      </div>
+    </div> -->
+ 
+    <footer>
+      <h5>Costa &copy;</h5>
+    </footer>
+    <script src="main.js"></script>
+    <script src="news.js"></script>
+  </body>
+</html>

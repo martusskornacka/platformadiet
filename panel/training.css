@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+  }
+.show{
+  display:block;
+}
+
+@media only screen and (max-width: 768px){
+    [class*="col-"] {
+        width: 100%;
+      }
+.container-fluid{
+  width:100%;
+}
+    .player, .newMove{
+    display:flex;
+    flex-direction: column;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+			margin-bottom: 1.6%;
+			background: #fff;
+			line-height: 1.4;
+			font-family: sans-serif;
+			border-radius: 5px;
+			overflow: hidden;
+      z-index: 0;
+    }
+    .btn{
+      width:auto;
+      padding:2%;
+      border-radius: 5px;
+      border:1px solid white;
+      background-color: #fff;
+      margin:1%
+    }
+    .active{
+      width:auto;
+      padding:2%;
+      border-radius: 5px;
+      border:1px solid #4C58FF;
+      background-color: #4C58FF;
+      color: #fff;
+      margin:1%
+    }
+    .playerBtn{ 
+      justify-content: center;
+      position: relative;
+  
+    }
+    .playerBtn>button{
+      border:none;
+      background-color: transparent;
+      
+    }
+    .contentPlay{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 0 2%;
+      border-top: 1px solid black;
+    }
+}
+
+@media only screen and (max-width: 1290px) and (min-width:769px){
+     
+    .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .row{
+      width:100%;
+      display: flex;
+      flex-direction: row;
+  }
+  .container-fluid{
+    width:100%;
+  }
+  .player, .newMove{
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+    margin: 1.6%;
+    background: #fff;
+    line-height: 1.4;
+    font-family: sans-serif;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 0;
+}
+.btn{
+  width:150px;
+  padding:1%;
+  border-radius: 5px;
+  border:1px solid white;
+  background-color: #fff;
+  margin:1%
+}
+.active{
+  width: 150px;
+  padding:1%;
+  border-radius: 5px;
+  border:1px solid #4C58FF;
+  background-color: #4C58FF;
+  color: #ffffff;
+  margin:1%
+}
+.newMove{
+  /* max-width:80%; */
+ 
+  margin:2% 20%;
+ 
+}
+.playerBtn{ 
+  justify-content: center;
+
+
+}
+.playerBtn>button{
+  border:none;
+  background-color: transparent;
+}
+
+
+.contentPlay{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 2%;
+  border-top: 1px solid black;
+}
+.description{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.description p{
+  word-wrap: break-word
+}
+}
+@media only screen and (max-width: 1900px) and (min-width:1291px){
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .row{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .container-fluid{
+      width:100%;
+    }
+    .btn{
+      width: 300px;
+      padding:1%;
+      border-radius: 5px;
+      border:1px solid white;
+      background-color: #fff;
+      margin:1%
+    }
+    .active{
+      width: 300px;
+      padding:1%;
+      border-radius: 5px;
+      border:1px solid #4C58FF;
+      background-color: #4C58FF;
+      color: #fff;
+      margin:1%
+    }
+    .player, .newMove{
+      display:flex;
+      flex-direction: column;
+      box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+			margin: 1.6%;
+			background: #fff;
+			line-height: 1.4;
+			font-family: sans-serif;
+			border-radius: 5px;
+			overflow: hidden;
+      z-index: 0;
+  }
+  .newMove{
+    /* width:80%; */
+    margin:2% 20%;
+  }
+  .playerBtn{ 
+    justify-content: center;
+
+
+  }
+  .playerBtn>button{
+    border:none;
+    background-color: transparent;
+  }
+  .contentPlay{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 2%;
+    border-top: 1px solid black;
+  }
+
+}
