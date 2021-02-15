@@ -60,8 +60,11 @@
    
     <header class="block" id="mobile-menus">
 
-        <ul class="header-menu horizontal-list" >
+        <ul class="header-menu horizontal-list"  id="header-menu">
 
+        <li>
+                <a class="header-menu-tab" href="index.php"><span class="icon fontawesome-envelope scnd-font-color"></span>Panel</a>
+    </li> 
             <li>
                 <a class="header-menu-tab" href="inbox.php"><span class="icon fontawesome-envelope scnd-font-color"></span>Wiadomości</a>
     </li>

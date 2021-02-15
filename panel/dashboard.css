@@ -95,7 +95,9 @@ h1, h2, p, a, span{
 	/* .scnd-font-color {
 		color: #9099b7;
 	} */
-
+.active{
+	color:pink;
+}
 .input-container {
 	position: relative;
 }
@@ -264,8 +266,8 @@ h1, h2, p, a, span{
 					transition: background .3s;
 				}
 					.header-menu-tab:hover {
-						background: #ADAFB4;
-						border-bottom: 4px solid white;
+					
+						border-bottom: 4px solid #4C58FF;
 						text-decoration: none;
 					}
 					.header-menu-tab .icon {

@@ -65,7 +65,7 @@
         </ul>
         <?php  if (isset($_SESSION['username'])) : ?>
         <div class="profile-menu">
-            <p> <?php echo $_SESSION['username']; ?>
+        <p> <a class="header-menu-tab" href="profileuser.php"><?php echo $_SESSION['username']; ?></a>
         </p>
       
             <div class="profile-picture small-profile-picture">

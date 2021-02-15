@@ -1,14 +1,7 @@
 
 // menu
 
-function myFunction() {
-    var x = document.getElementById("mobile-menus");
-    if (x.className === "block") {
-        x.className += " responsive";
-    } else {
-        x.className = "block";
-    }
-}
+
 // menu end
 /* chart.js chart examples */
 

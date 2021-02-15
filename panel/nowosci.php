@@ -72,7 +72,7 @@
                 <a class="header-menu-tab" href="training.php"><span class="icon entypo-calendar scnd-font-color"></span>Plan Treningowy</a>
             </li>
             <li>
-                <a class="header-menu-tab" href=""><span class="icon entypo-cog scnd-font-color"></span>Jadłospisy</a>
+                <a class="header-menu-tab" href="diet.php"><span class="icon entypo-cog scnd-font-color"></span>Jadłospisy</a>
             </li>
             <li>
                 <a class="header-menu-tab" href="#13"><span class="icon entypo-chart-line scnd-font-color"></span>Statystyki</a>
@@ -80,7 +80,7 @@
         </ul>
         <?php  if (isset($_SESSION['username'])) : ?>
         <div class="profile-menu">
-            <p> <?php echo $_SESSION['username']; ?>
+        <p> <a class="header-menu-tab" href="profileuser.php"><?php echo $_SESSION['username']; ?></a>
         </p>
       
             <div class="profile-picture small-profile-picture">
